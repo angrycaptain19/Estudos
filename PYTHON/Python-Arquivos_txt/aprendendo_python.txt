@@ -1,0 +1,9 @@
+Em python aprendi variáveis e tipos de dados simples,
+Em python aprendi introdução as listas,
+Em python aprendi trabalhando com listas,
+Em python aprendi instruções if,
+Em python aprendi dicionários,
+Em python aprendi entrada de usuário e laços while,
+Em python aprendi funções,
+Em python aprendi classes,
+em python aprendi arquivos e exceções
