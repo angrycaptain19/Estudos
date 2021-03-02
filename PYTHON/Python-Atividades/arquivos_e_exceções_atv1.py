@@ -18,10 +18,7 @@ nome_arquivo = 'ARQUIVOS_TEXTO/aprendendo_python.txt'
 with open(nome_arquivo) as objeto_arquivo:
     lines = objeto_arquivo.readlines()
 
-linhas_string = ''
-for line in lines:
-    linhas_string += line.strip()
-
+linhas_string = ''.join(line.strip() for line in lines)
 print(linhas_string)
 
 # Aprendendo C

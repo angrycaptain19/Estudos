@@ -34,10 +34,9 @@ print(cantor)
 # ÁLBUNS DOS USUÁRIOS
 def artista_musica(artista, musica):
     """Devolve o nome do artista e sua musica."""
-    dados = {
+    return {
         'artista': artista, 'musica': musica
     }
-    return dados
 
 while True:
     print("\nPor favor, informe os dados nescessários para essa pesquisa:")

@@ -12,10 +12,7 @@ alien_0['y_position'] = 25
 print(alien_0)
 
 # COMEÇANO COM UM DICIONÁRIO VAZIO
-alien_0 = {}
-
-alien_0['color'] = 'green'
-alien_0['points'] = 5
+alien_0 = {'color': 'green', 'points': 5}
 
 print(alien_0)
 
@@ -42,7 +39,7 @@ else:
     x_increment = 3
 
 # A nova posição é a posição antiga somada ao incremento
-alien_0['x_position'] = alien_0['x_position'] + x_increment
+alien_0['x_position'] += x_increment
 
 print("New x-position: " + str(alien_0['x_position']))
 

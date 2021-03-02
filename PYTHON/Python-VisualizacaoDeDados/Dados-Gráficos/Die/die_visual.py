@@ -8,7 +8,7 @@ die = Die()
 
 # Faz alguns lançamentos e armazena os resultados em uma lista
 results = []
-for roll_num in range(1000):
+for _ in range(1000):
     result = die.roll()
     results.append(result)
 

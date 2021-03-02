@@ -16,11 +16,7 @@ motorcycles.append('ducati')
 print(motorcycles)
 
 # ADICIONANDO ITENS A PARTIR DE UMA LISTA VAZIA
-motorcycles = []
-
-motorcycles.append('honda')
-motorcycles.append('yamaha')
-motorcycles.append('suzuki')
+motorcycles = ['honda', 'yamaha', 'suzuki']
 
 print(motorcycles)
 
