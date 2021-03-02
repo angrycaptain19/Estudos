@@ -23,7 +23,7 @@ elif age < 20:
     print("Você é um(a) adolescente.")
 elif age < 65:
     print("Você é um adulto.")
-elif age >= 65:
+else:
     print("Você é um idoso.")
 
 # fruta favorita

@@ -20,7 +20,7 @@ favorite_languages = {
 # Você pode omitir o método keys() pois o interpretador sabe que é um
 # comportamento padrão percorrer as chaves.
 friends = ['phil', 'sarah']
-for name in favorite_languages.keys():
+for name in favorite_languages:
     print(name.title())
 
     if name in friends:

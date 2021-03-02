@@ -25,7 +25,7 @@ class Dado:
 
 dado = Dado()
 
-for arremeço in range(10):
+for _ in range(10):
     dado.lados_dado = 20
     dado.rolar_dado()
     dado.mostrar_dado()

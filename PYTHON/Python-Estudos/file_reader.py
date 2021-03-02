@@ -31,10 +31,7 @@ filename = 'ARQUIVOS_TEXTO/pi_digits.txt'
 with open(filename) as file_object:
     lines = file_object.readlines()
 
-pi_string = ''
-for line in lines:
-    pi_string += line.strip()
-
+pi_string = ''.join(line.strip() for line in lines)
 print(pi_string)
 print(len(pi_string))
 
@@ -44,10 +41,7 @@ filename = 'ARQUIVOS_TEXTO/CURSO_EXTENSIVO_PYTHON/chapter_10/pi_million_digits.t
 with open(filename) as file_object:
     lines = file_object.readlines()
 
-pi_string = ''
-for line in lines:
-    pi_string += line.strip()
-
+pi_string = ''.join(line.strip() for line in lines)
 print(pi_string[:52] + "...")
 print(len(pi_string))
 

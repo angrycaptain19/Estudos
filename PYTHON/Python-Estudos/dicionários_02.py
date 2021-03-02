@@ -13,9 +13,9 @@ for alien in aliens:
 # Cria uma lista vazia para criar armazenar alienigenas
 aliens = []
 
+new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
 # Cria 30 alienigenas verdes
-for alien_number in range(30):
-    new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+for _ in range(30):
     aliens.append(new_alien)
 
 for alien in aliens[:3]:
